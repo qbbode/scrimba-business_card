@@ -1,0 +1,72 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Courier New, Courier, monospace;
+    
+}
+
+.avatar {
+    width: 150px;
+    border-bottom: 6px solid #5e548e;
+    border-radius: 15px
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ffb563;
+    color: #2b2839;
+    border-bottom: 6px solid #5e548e;
+    border-radius: 15px
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+h3:hover, p:hover, h4:hover{
+    animation-play-state: initial;
+    animation-play-state: running;
+}
+
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
+@keyframes teste {
+  0%   {background-color: none;}
+  25%  {background-color: #be95c4;}
+  50%  {background-color: #9f86c0;}
+  100% {background-color: #5e548e;}
+}
+h3, p, h4{
+  border-radius:8px;
+  animation-name: teste;
+  animation-duration: 1s;
+  animation-play-state: paused;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out
+}
